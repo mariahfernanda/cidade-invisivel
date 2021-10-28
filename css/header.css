@@ -1,0 +1,56 @@
+header {
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: rgba(0, 0, 0, 0.287);
+}
+
+.menu > ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  transition: color 0.5s;
+}
+.menu a:hover {
+  color: #ffffff;
+}
+.dropdown-menu > li:hover > a {
+  color: #e50914;
+}
+.dropdown-menu li:hover .dropdown-submenu {
+  display: flex;
+}
+.dropdown-submenu {
+  background-color: rgba(0, 0, 0, 0.301);
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+  height: 171px;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+.dropdown-submenu a {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding-left: 15px;
+}
+.dropdown-submenu a:hover {
+  background-color: #e50914;
+}
+.dropdown-submenu > li:hover > a {
+  color: #e50914;
+}

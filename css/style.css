@@ -4,29 +4,8 @@ body {
   background-image: url(../img/background.png);
   background-size: cover;
   background-position: right top;
-  background-color: rgba(0, 0, 0, 0.555);
+  background-color: rgba(0, 0, 0, 0.301);
   background-blend-mode: darken;
   display: flex;
   flex-direction: column;
-}
-header {
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 80px;
-}
-.logo {
-  background-color: cornsilk;
-}
-.menu {
-  background-color: darkgoldenrod;
-}
-main {
-  flex-grow: 1;
-  background-color: burlywood;
-}
-footer {
-  height: 70px;
-  background-color: coral;
 }
