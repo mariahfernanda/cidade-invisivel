@@ -9,18 +9,12 @@ main {
   color: white;
 }
 
-main h1 {
-  font-size: 6rem;
-  font-weight: 600;
-}
 main p {
   font-size: 1.6rem;
   width: 900px;
   font-weight: 200;
 }
-h1 {
-  font-size: 3rem;
-}
+
 main h2 {
   font-size: 2.3rem;
   font-weight: 600px;
@@ -59,5 +53,7 @@ main a:hover {
   border-right-style: solid;
   border-right-color: #e50914;
   border-right-width: 2px;
-  width: 10%;
+  width: 16%;
+  list-style: none;
+  font-family: serif;
 }

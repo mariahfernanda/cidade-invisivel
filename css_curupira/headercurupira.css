@@ -59,11 +59,12 @@ main ul {
   align-items: center;
   justify-content: flex-start;
   gap: 50px;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 h1 {
   font-family: serif;
   color: #00000000;
   -webkit-text-stroke: 1px #ffffff;
   -webkit-text-stroke: 1px #ffffff;
+  font-size: 10rem;
 }
