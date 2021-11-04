@@ -55,5 +55,6 @@ main a:hover {
   border-right-width: 2px;
   width: 16%;
   list-style: none;
-  font-family: serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
