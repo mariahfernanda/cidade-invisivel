@@ -1,0 +1,63 @@
+header {
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: rgba(0, 0, 0, 0.287);
+}
+
+.menucurupira > ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.menucurupira a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  transition: color 0.5s;
+}
+.menucurupira a:hover {
+  color: #ffffff;
+}
+.dropdown-menucurupira > li:hover > a {
+  color: #e50914;
+}
+.dropdown-menucurupira li:hover .dropdown-submenucurupira {
+  display: flex;
+}
+.dropdown-submenucurupira {
+  background-color: rgba(0, 0, 0, 0.301);
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+  height: 171px;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+.dropdown-submenucurupira a {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding-left: 15px;
+}
+.dropdown-submenucurupira a:hover {
+  background-color: #e50914;
+}
+.dropdown-submenucurupira > li:hover > a {
+  color: #e50914;
+}
+main ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  font-size: 1.5rem;
+}
