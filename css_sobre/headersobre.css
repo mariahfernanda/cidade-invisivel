@@ -1,0 +1,70 @@
+header {
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: rgba(0, 0, 0, 0.287);
+}
+
+.menusobre > ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.menusobre a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  transition: color 0.5s;
+}
+.menusobre a:hover {
+  color: #ffffff;
+}
+.dropdown-menusobre > li:hover > a {
+  color: #e50914;
+}
+.dropdown-menusobre li:hover .dropdown-submenusobre {
+  display: flex;
+}
+.dropdown-submenusobre {
+  background-color: rgba(0, 0, 0, 0.301);
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+  height: 171px;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+.dropdown-submenusobre a {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding-left: 15px;
+}
+.dropdown-submenusobre a:hover {
+  background-color: #e50914;
+}
+.dropdown-submenusobre > li:hover > a {
+  color: #e50914;
+}
+main ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  font-size: 2rem;
+}
+h1 {
+  font-family: serif;
+  color: #00000000;
+  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-stroke: 1px #ffffff;
+  font-size: 10rem;
+}
